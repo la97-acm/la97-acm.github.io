@@ -96,10 +96,12 @@ h1 {
 }
 
 .daybreak-wordmark {
-  background: linear-gradient(135deg, #7c5cff 0%, #6d54ff 44%, #e0aa00 100%);
+  display: inline-block;
+  background: linear-gradient(135deg, #7c5cff 0%, #6d54ff 46%, #e0aa00 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
