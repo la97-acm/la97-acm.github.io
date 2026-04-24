@@ -95,6 +95,13 @@ h1 {
   line-height: 1.05;
 }
 
+.daybreak-wordmark {
+  background: linear-gradient(135deg, #7c5cff 0%, #6d54ff 44%, #e0aa00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 h2 {
   margin: 28px 0 10px;
   font-size: 1.2rem;
