@@ -69,6 +69,15 @@ body {
   padding: 28px;
 }
 
+.site-icon {
+  width: 76px;
+  height: 76px;
+  display: block;
+  border-radius: 18px;
+  margin: 2px 0 18px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.18);
+}
+
 .eyebrow {
   display: inline-flex;
   align-items: center;
