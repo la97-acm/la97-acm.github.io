@@ -1,22 +1,24 @@
 :root {
   color-scheme: light dark;
-  --bg: #f5f2ea;
+  --bg: #f7f5f1;
   --surface: rgba(255, 255, 255, 0.78);
   --surface-border: rgba(15, 23, 42, 0.08);
   --text: #0f172a;
   --secondary: #475569;
-  --primary: #2f6fed;
-  --accent: #e0aa00;
+  --primary: #5b21b6;
+  --accent: #f59e0b;
   --shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #08111f;
-    --surface: rgba(15, 23, 42, 0.74);
-    --surface-border: rgba(255, 255, 255, 0.08);
+    --bg: #0f1115;
+    --surface: rgba(28, 28, 30, 0.84);
+    --surface-border: rgba(55, 65, 81, 0.9);
     --text: #f8fafc;
     --secondary: #cbd5e1;
+    --primary: #7c3aed;
+    --accent: #fbbf24;
     --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
   }
 }
@@ -27,8 +29,8 @@
 
 html {
   background:
-    radial-gradient(circle at top left, rgba(224, 170, 0, 0.22), transparent 32%),
-    radial-gradient(circle at top right, rgba(47, 111, 237, 0.18), transparent 30%),
+    radial-gradient(circle at top left, rgba(245, 158, 11, 0.18), transparent 32%),
+    radial-gradient(circle at top right, rgba(91, 33, 182, 0.16), transparent 30%),
     var(--bg);
 }
 
@@ -86,7 +88,8 @@ body {
 }
 
 .eyebrow-dots span:nth-child(3) {
-  background: #7c5cff;
+  background: var(--primary);
+  opacity: 0.75;
 }
 
 h1 {
@@ -96,12 +99,7 @@ h1 {
 }
 
 .daybreak-wordmark {
-  display: inline-block;
-  background: linear-gradient(135deg, #7c5cff 0%, #6d54ff 46%, #e0aa00 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: var(--primary);
 }
 
 h2 {
@@ -144,7 +142,7 @@ a:hover {
 }
 
 .button {
-  background: linear-gradient(135deg, var(--primary), #4d86f0);
+  background: var(--primary);
   color: white;
 }
 
